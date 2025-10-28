@@ -269,7 +269,7 @@ class MovieDetailContent extends StatelessWidget {
               ),
             );
           },
-          childCount: recommendationDummy.length,
+          childCount: state.recommendation.length,
         ),
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           mainAxisSpacing: 8.0,
